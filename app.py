@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from data import products
 from re import L
 from flask import Flask, render_template, url_for, redirect, request
 from flask_sqlalchemy import SQLAlchemy
